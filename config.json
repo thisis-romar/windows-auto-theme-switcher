@@ -1,0 +1,16 @@
+{
+  "Offsets": {
+    "SunsetOffsetMinutes": 0,
+    "SunriseOffsetMinutes": 0
+  },
+  "Logging": {
+    "LogPath": "H:\\Windows-Tools\\AutoThemeSwitcher\\logs\\theme-switch.log",
+    "Enabled": true
+  },
+  "Location": {
+    "Timezone": "Eastern Standard Time",
+    "UseAutoLocation": true,
+    "Latitude": null,
+    "Longitude": null
+  }
+}

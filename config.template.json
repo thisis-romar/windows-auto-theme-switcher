@@ -1,0 +1,16 @@
+{
+  "Location": {
+    "Latitude": null,
+    "Longitude": null,
+    "Timezone": "Eastern Standard Time",
+    "UseAutoLocation": true
+  },
+  "Offsets": {
+    "SunriseOffsetMinutes": 0,
+    "SunsetOffsetMinutes": 0
+  },
+  "Logging": {
+    "Enabled": true,
+    "LogPath": "logs\\theme-switch.log"
+  }
+}
