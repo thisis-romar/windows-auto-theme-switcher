@@ -1,0 +1,30 @@
+# Log files
+logs/
+*.log
+
+# User-specific configuration
+config.json
+
+# Chat history (development artifacts)
+chat-history/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PowerShell session files
+*.ps1xml
+
+# IDE/Editor files
+.vscode/
+.vs/
+*.code-workspace
+
+# OS files
+.DS_Store
