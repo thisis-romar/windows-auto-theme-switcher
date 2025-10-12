@@ -29,11 +29,12 @@ if (-not $isAdmin) {
     
     # Self-elevate
     try {
-        Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$installerPath`"" -Verb RunAs -Wait
+        Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit -NoProfile -ExecutionPolicy Bypass -File `"$installerPath`"" -Verb RunAs
         
         Write-Host ""
-        Write-Host "Installation completed!" -ForegroundColor Green
-        Write-Host "You can close this window." -ForegroundColor Green
+        Write-Host "Installation window opened." -ForegroundColor Green
+        Write-Host "Please check the administrator window for results." -ForegroundColor Yellow
+        Write-Host "The window will stay open so you can see any errors." -ForegroundColor Yellow
     }
     catch {
         Write-Host ""
